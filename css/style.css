@@ -687,7 +687,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
   .intro-section, .intro-section .container .row {
     height: 100vh;
-    min-height: 1200-5; }
+    min-height: 1200px; }
   .intro-section:before {
     content: "";
     position: absolute;
@@ -799,11 +799,15 @@ h1, h2, h3, h4, h5,
       margin-bottom: 1.5rem; }
     .image-absolute-box .box p {
       color: rgba(255, 255, 255, 0.55); }
-    .image-absolute-box .box ul {
-      color: rgba(255, 255, 255, 0.85); }
 
 .section-1 {
-  margin-top: 10rem; }
+  margin-bottom: -100px; }
+
+.section-counter{
+  margin-bottom: -25px;
+}
+
+
 
 .work-thumb {
   position: relative;
@@ -962,7 +966,6 @@ h1, h2, h3, h4, h5,
 
 .service {
   padding: 4rem;
-
   background: #fff;
   position: relative;
   border-radius: 4px;
@@ -1224,3 +1227,5 @@ h1, h2, h3, h4, h5,
   color: #fff;
   text-decoration: none;
 }
+
+/*Edits*/

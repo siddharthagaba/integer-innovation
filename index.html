@@ -54,7 +54,7 @@
       
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo"><a href="index.html" class="text-uppercase"><img src="images/logo.png" height="77px"></a></div>
+          <div class="site-logo"><a href="index.html" class="text-uppercase"><!-- <img src="images/logo.png" height="77px"> -->Integer Innovation</a></div>
           <div>
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-xl-block">
@@ -82,7 +82,7 @@
     </header><!-- End Navbar -->
 
     <!-- Start carousel -->
-    <div class="intro-section custom-owl-carousel" id="home">
+    <div class="intro-section custom-owl-carousel" id="home-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-5 mr-auto" data-aos="fade-up">
@@ -169,10 +169,10 @@
       </div>
 
       <!-- Start cards -->
-            <div class="site-section" data-aos="fade" data-aos-delay="">
+            <div class="site-section section-2" data-aos="fade" data-aos-delay="">
             <div class="container">
             <div class="row">
-            <div class="col-md-6 col-lg-6 mb-4 mb-lg-0">
+            <div class="col-md-6 col-lg-6 mb-4 mb-lg-0" style="display: flex;">
               <div class="process bg-white rounded">
                 <div>
                   <span class="flaticon-idea display-4 text-primary mb-4 d-inline-block"></span>
@@ -182,7 +182,7 @@
 
               </div>
             </div>
-            <div class="col-md-6 col-lg-6 mb-4 mb-lg-0">
+            <div class="col-md-6 col-lg-6 mb-4 mb-lg-0" style="display: flex;">
               <div class="process bg-white rounded">
                 <div>
                   <span class="flaticon-vision display-4 text-primary mb-4 d-inline-block"></span>
@@ -254,75 +254,19 @@
 
       <div class="owl-carousel nonloop-block-13">
 
-          <a class="work-thumb" href="images/logo1.png" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Project Name Here</h3>
-              <span class="category">Website</span>
-            </div>
+          <a href="images/logo1.png" data-fancybox="gallery">
             <img src="images/logo1.png" alt="Image" class="img-fluid">
           </a> 
           
-          <a class="work-thumb" href="images/logo2.png" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Project Name Here</h3>
-              <span class="category">Illustration</span>
-            </div>
+          <a href="images/logo2.png" data-fancybox="gallery">
             <img src="images/logo2.png" alt="Image" class="img-fluid">
           </a>
 
-          <a class="work-thumb" href="images/logo3.png" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Project Name Here</h3>
-              <span class="category">Branding</span>
-            </div>
-            <img src="images/logo3.png" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/logo4.jpg" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Project Name Here</h3>
-              <span class="category">Web Development</span>
-            </div>
-            <img src="images/logo4.jpg" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/logo5.jpg" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Project Name Here</h3>
-              <span class="category">Design</span>
-            </div>
-            <img src="images/logo5.jpg" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/logo6.png" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Project Name Here</h3>
-              <span class="category">Design</span>
-            </div>
+          <a href="images/logo6.png" data-fancybox="gallery">
             <img src="images/logo6.png" alt="Image" class="img-fluid">
           </a>
 
-          <a class="work-thumb" href="images/logo7.png" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Project Name Here</h3>
-              <span class="category">Design</span>
-            </div>
-            <img src="images/logo7.png" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/logo8.png" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Project Name Here</h3>
-              <span class="category">Design</span>
-            </div>
-            <img src="images/logo8.png" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/logo9.png" data-fancybox="gallery">
-            <div class="work-text">
-              <h3>Project Name Here</h3>
-              <span class="category">Design</span>
-            </div>
+          <a href="images/logo9.png" data-fancybox="gallery">
             <img src="images/logo9.png" alt="Image" class="img-fluid">
           </a>
       </div>
@@ -394,13 +338,18 @@
 
 
     <!-- Start Services -->
-    <div class="site-section bg-light" id="services" data-aos="fade">
+    <div class="site-section bg-light" id="services" data-aos="fade" style="padding-top: -100px; padding-bottom: -100px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-5">
             <h2 class="section-title">Services</h2>
             <p>A collection of well-crafted sessions, covering a variety of trend setting topics, across multiple disciplines in the field of technology and management. The idea put behind these contrasting workshops is to allow students to judge their interests and gain knowledge in sync to them. Following are the workshops that INTEGER offer’s</p>
           </div>
+        
+
+        <div class="col-md-3 ml-auto" style="display: block;">
+          <img src="images/logo1.png" alt="Image" class="img-fluid">
+        </div>
         </div>
 
       </div>
@@ -411,7 +360,7 @@
         <div class="service">
           <div>
             <span class="custom-icon-wrap"><span class="flaticon-computer"></span></span>
-            <h3>Web Development<br> &nbsp;</h3>
+            <h3>Web Development</h3>
           </div>
         </div>
 
@@ -434,35 +383,35 @@
         <div class="service">
           <div>
             <span class="custom-icon-wrap"><span class="flaticon-blockchain"></span></span>
-            <h3>Blockchain<br> &nbsp;</h3>
+            <h3>Blockchain</h3>
           </div>
         </div>
 
         <div class="service">
           <div>
             <span class="custom-icon-wrap"><span class="flaticon-analysis"></span></span>
-            <h3>Data Analytics<br> &nbsp;</h3>
+            <h3>Data Analytics</h3>
           </div>
         </div>
 
         <div class="service">
           <div>
             <span class="custom-icon-wrap"><span class="flaticon-internet-of-things"></span></span>
-            <h3>Internet of Things </h3>
+            <h3>Internet of Things</h3>
           </div>
         </div>
 
         <div class="service">
           <div>
             <span class="custom-icon-wrap"><span class="flaticon-3d"></span></span>
-            <h3>3D Designing <br> &nbsp;</h3>
+            <h3>3D Designing</h3>
           </div>
         </div>
 
-        <div class="service">
+        <div class="service" style="display: flex;">
           <div>
             <span class="custom-icon-wrap"><span class="flaticon-ui"></span></span>
-            <h3>UI/UX Designing<br> &nbsp;</h3>
+            <h3>UI/UX Designing</h3>
           </div>
         </div>
 
@@ -483,7 +432,7 @@
         <div class="service">
           <div>
             <span class="custom-icon-wrap"><span class="flaticon-mail"></span></span>
-            <h3>Aerodynamics<br> &nbsp;</h3>
+            <h3>Aerodynamics</h3>
           </div>
         </div>
 
@@ -565,7 +514,7 @@
 
   
     <!-- start footer   -->
-    <footer class="footer-section bg-light" id="footer">
+    <footer class="footer-section bg-light" id="footer" style="padding-top: -150px; padding-bottom: -150px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6">
@@ -589,8 +538,12 @@
               <li><a href="#services" class="smoothscroll">Services</a></li>
             </ul>
           </div>
-
+          <div class="col-md-3 ml-auto text-center" style="display: block; padding: 100px auto; margin: auto 0;">
+          <img src="images/logo.png" alt="Image" class="img-fluid">
         </div>
+        </div>
+
+        
 
         <div class="social-links text-center text-md-right pt-3 pt-md-0 ml-auto">
         <a href="" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
@@ -598,6 +551,7 @@
         <a href="" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
         <a href="" class="google-plus" target="_blank"><i class="bx bxl-youtube"></i></a>
         <a href="" class="linkedin" target="_blank"><i class="bx bxl-linkedin" ></i></a>
+      
       </div>
       </div>
 
@@ -621,6 +575,9 @@
     
   </div> <!-- .site-wrap -->
 
+  <script>
+    $("#card1").height($("#card2").height());
+  </script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
